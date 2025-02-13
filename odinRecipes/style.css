@@ -1,3 +1,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+}
