@@ -1,0 +1,19 @@
+body {
+    margin: 30px
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 200px;
+}
+
+.sectOneSub {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
