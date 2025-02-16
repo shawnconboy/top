@@ -3,9 +3,21 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 10px 05%;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(17, 17, 49);
+    color: white;
+}
+
+header>div>a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+header>div>a:hover {
+    color: rgb(18, 180, 161);
 }
 
 img {
@@ -16,8 +28,9 @@ img {
     min-height: 300px;
     display: flex;
     flex-direction: column;
-    padding: 0px 10%;
-    background-color: pal;
+    /* padding: 0px 10%; */
+    background-color: rgb(17, 17, 49);
+    color: white;
 }
 
 .sectOneSub {
@@ -41,7 +54,6 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(149, 253, 201);
 }
 
 .imageContainers {
@@ -65,6 +77,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(17, 17, 49);
+    color: white;
 }
 
 .sectFour {
@@ -73,7 +87,6 @@ button {
     justify-content: center;
     min-height: 300px;
     padding: 0px 10%;
-    background-color: rgb(149, 253, 201);
 }
 
 .fourContainer {
@@ -82,7 +95,7 @@ button {
     padding: 30px;
     background-color: rgb(66, 252, 159);
     width: 500px;
-    color: rgb(106, 106, 106);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
