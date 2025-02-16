@@ -16,6 +16,8 @@ img {
     min-height: 300px;
     display: flex;
     flex-direction: column;
+    padding: 0px 10%;
+    background-color: pal;
 }
 
 .sectOneSub {
@@ -34,11 +36,12 @@ button {
 
 .sectTwo {
     min-height: 300px;
-    padding: 10px;
+    padding: 0px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(149, 253, 201);
 }
 
 .imageContainers {
@@ -57,13 +60,11 @@ button {
 
 .sectThree {
     min-height: 300px;
-    padding: 20px;
-    background-color: gray;
+    padding: 0px 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
 }
 
 .sectFour {
@@ -71,16 +72,27 @@ button {
     align-items: center;
     justify-content: center;
     min-height: 300px;
+    padding: 0px 10%;
+    background-color: rgb(149, 253, 201);
 }
 
 .fourContainer {
     margin: 0% 5%;
     border-radius: 20px;
     padding: 30px;
-    background-color: blue;
+    background-color: rgb(66, 252, 159);
     width: 500px;
-    color: white;
+    color: rgb(106, 106, 106);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: black 1px 1px 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    color: white;
+    padding: 1px;
 }
